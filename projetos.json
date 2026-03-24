@@ -1,0 +1,22 @@
+{
+  "projetos": [
+    {
+      "nome": "Projeto em Desenvolvimento",
+      "descricao": "Espaço para futuros projetos.",
+      "github": "#",
+      "drive": "#"
+    },
+    {
+      "nome": "quack",
+      "descricao": "Aplicação desktop com C# e SQL Server.",
+      "github": "#",
+      "drive": "#"
+    },
+     {
+      "nome": "Teste",
+      "descricao": "Teste de aplicação.",
+      "github": "https://www.youtube.com/",
+      "drive": "https://drive.google.com/file/d/1RHg6NzC0AuzWI0Hd6Jy0nsoppOKGgjIz/view?usp=drive_link"
+    }
+  ]
+}

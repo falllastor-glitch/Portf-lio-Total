@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - André Lucas</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HUB DE ENTRADA -->
+<section id="hub" class="hub-container">
+    <div class="hub-box">
+    
+        <img src="img.jpg" class="hub-img" alt="Foto de perfil">
+        <h1>André Lucas</h1>
+        <button class="btn btn-enter" onclick="entrarSite()">Entrar</button>
+    </div>
+</section>
+
+<!-- SITE -->
+<div id="site" style="display:none;">
+
+<!-- MENU -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">André Lucas</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container text-center">
+        <h1>André Lucas</h1>
+        <p>Estudante</p>
+        <a href="https://github.com/falllastor-glitch" class="btn btn-custom">GitHub</a>
+        <a href="#" class="btn btn-custom">LinkedIn</a>
+    </div>
+</header>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+    <div class="container">
+        <h2>Sobre mim</h2>
+        <p>
+            Sou estudante de programação e artes visuais, com interesse em unir criatividade e tecnologia 
+            para desenvolver soluções digitais. Busco aprimorar minhas habilidades técnicas e criativas, 
+            com foco em crescimento profissional na área de desenvolvimento de software.
+        </p>
+    </div>
+</section>
+
+<!-- HABILIDADES -->
+<section id="habilidades" class="section">
+    <div class="container">
+        <h2>Habilidades</h2>
+        <div class="row text-center">
+            <div class="col-md-4 skill-box">Design & Ilustração</div>
+            <div class="col-md-4 skill-box">C#</div>
+            <div class="col-md-4 skill-box">Lógica de Programação</div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJETOS --><section id="projetos" class="section">
+    <div class="container">
+        <h2>Projetos</h2>
+        <div class="row" id="project-list">
+            <!-- Projetos serão carregados pelo JSON -->
+        </div>
+    </div>
+</section>
+            <!-- FIM CARD -->
+
+        </div>
+    </div>
+</section>
+
+<!-- FORMAÇÃO -->
+<section id="formacao" class="section">
+    <div class="container">
+        <h2>Formação / Cursos</h2>
+        <p>Programação em C# com foco em lógica e desenvolvimento de aplicações.</p>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Email: Falllanother@gmail.com</p>
+    </div>
+</section>
+
+<!-- RODAPÉ -->
+<footer class="footer">
+    <p>© 2026 André Lucas - Portfólio</p>
+</footer>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
